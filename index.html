@@ -251,7 +251,7 @@
     }
     .pay-tbl{width:auto;border-collapse:collapse;font-size:11.5px;}
     .pay-tbl td{padding:4px 12px;border:1.5px solid var(--border);}
-    .pay-tbl td.plbl{font-weight:700;background:var(--grey);white-space:nowrap;width:120px;}
+    .pay-tbl td.plbl{font-weight:700;background:var(--grey);white-space:nowrap;width:auto;}
     .pay-tbl td input{
       border:none;outline:none;background:transparent;
       font-family:'Inter',sans-serif;font-size:11.5px;color:var(--text);
@@ -485,24 +485,28 @@
       <div class="pay-head">Payment Details:</div>
       <table class="pay-tbl">
         <tr>
-          <td class="plbl">Payment terms</td>
-          <td><input type="text" id="payTerms" value="Cash / Bank Transfer"/></td>
+          <td class="plbl">Account Title :</td>
+          <td><input type="text" id="accName" value="RELOOP RECYCLING FZE"/></td>
         </tr>
         <tr>
-          <td class="plbl">Bank Name</td>
-          <td><input type="text" id="bankName" value="ADCB"/></td>
+          <td class="plbl">IBAN :</td>
+          <td><input type="text" id="ibanNum" value="AE760030014328262920002"/></td>
         </tr>
         <tr>
-          <td class="plbl">Account Name</td>
-          <td><input type="text" id="accName" value="Reloop Recycling FZE"/></td>
+          <td class="plbl">Account Number :</td>
+          <td><input type="text" id="accNum" value="14328262920002"/></td>
         </tr>
         <tr>
-          <td class="plbl">Account Number</td>
-          <td><input type="text" id="accNum" value="14328262920001"/></td>
+          <td class="plbl">BIC / SWIFT :</td>
+          <td><input type="text" id="bicSwift" value="ADCBAEAAXXX"/></td>
         </tr>
         <tr>
-          <td class="plbl">IBAN</td>
-          <td><input type="text" id="ibanNum" value="AE06 0030 0143 2826 2920 001"/></td>
+          <td class="plbl">Bank :</td>
+          <td><input type="text" id="bankName" value="ABU DHABI COMMERCIAL BANK"/></td>
+        </tr>
+        <tr>
+          <td class="plbl">Branch Code / Branch Name :</td>
+          <td><input type="text" id="branchName" value="251 / AL RIGGAH ROAD"/></td>
         </tr>
       </table>
     </div>
